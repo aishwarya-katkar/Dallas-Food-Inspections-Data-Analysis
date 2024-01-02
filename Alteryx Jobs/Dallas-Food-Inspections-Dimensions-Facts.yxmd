@@ -1,0 +1,2229 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="310" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* 
+from Dallas_Food_Inspection_stg</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=NIDHI-DELL\SQLEXPRESS
+Catalog=Dallas_Food_Inspection
+Query=select Dallas_Food_Inspectio...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Inspection Type" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Inspection Date" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Inspection Score" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street Number" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street Name" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street Direction" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street Type" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street Unit" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street Address" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Zip Code" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 1" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 1" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 1" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 1" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 2" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 2" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 2" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 2" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 3" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 3" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 3" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 3" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 4" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 4" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 4" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 4" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 5" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 5" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 5" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 5" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 6" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 6" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 6" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 6" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 7" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 7" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 7" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 7" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 8" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 8" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 8" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 8" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 9" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 9" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 9" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 9" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 10" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 10" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 10" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 10" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 11" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 11" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 11" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 11" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 12" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 12" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 12" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 12" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 13" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 13" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 13" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 13" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 14" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 14" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 14" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 14" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 15" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 15" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 15" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 15" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 16" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 16" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 16" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 16" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 17" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 17" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 17" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 17" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 18" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 18" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 18" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 18" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 19" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 19" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 19" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 19" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 20" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 20" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 20" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 21" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 21" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 21" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 21" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 22" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 22" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 22" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 22" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 23" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 23" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 23" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 23" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 24" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 24" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 24" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 24" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Description - 25" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Points - 25" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Detail - 25" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation Memo - 25" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Inspection Month" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Inspection Year" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Lat Long Location" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="DI_CreateDate" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="64" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="String" />
+            <Field name="INSPECTION DATE CONVERT" size="10" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="258" y="322" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Restaurant Name" />
+            <Field name="Inspection Type" />
+            <Field name="Inspection Date" />
+            <Field name="Inspection Score" />
+            <Field name="Street Number" />
+            <Field name="Street Name" />
+            <Field name="Street Direction" />
+            <Field name="Street Type" />
+            <Field name="Street Unit" />
+            <Field name="Street Address" />
+            <Field name="Zip Code" />
+            <Field name="Inspection Month" />
+            <Field name="Inspection Year" />
+            <Field name="Lat Long Location" />
+            <Field name="DI_CreateDate" />
+            <Field name="DI_WorkflowFileName" />
+            <Field name="INSPECTION DATE CONVERT" />
+            <Field name="Violation_No" />
+            <Field name="Violation_Description" />
+            <Field name="Violation_Memo" />
+            <Field name="Violation_Detail" />
+            <Field name="Violation_Points" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression>regex_replace([_CurrentField_]," ","_")</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant_Name" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Inspection_Type" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Inspection_Date" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Inspection_Score" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street_Number" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street_Name" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street_Direction" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street_Type" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street_Unit" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Street_Address" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Zip_Code" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Inspection_Month" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Inspection_Year" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Lat_Long_Location" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="DI_CreateDate" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="64" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="String" />
+            <Field name="INSPECTION_DATE_CONVERT" size="10" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation_No" size="2" source="Arrange:" type="String" />
+            <Field name="Violation_Description" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation_Memo" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation_Detail" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+            <Field name="Violation_Points" size="1000" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Dallas_Food_Inspection;Data Source=NIDHI-DELL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NIDHI-DELL;Use Encryption for Data=False;Tag with column collation when possible=False|||select Dallas_Food_Inspection_stg.* &#xA;from Dallas_Food_Inspection_stg" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="354" y="322" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="64" type="String" />
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_WorkflowDirectory = [Engine.WorkflowDirectory]
+DI_WorkflowFileName = [Engine....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Arrange.Arrange">
+        <Position x="162" y="310" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <KeyFields orderChanged="False">
+            <Field name="Restaurant Name" />
+            <Field name="Inspection Type" />
+            <Field name="Inspection Date" />
+            <Field name="Inspection Score" />
+            <Field name="Street Number" />
+            <Field name="Street Name" />
+            <Field name="Street Direction" />
+            <Field name="Street Type" />
+            <Field name="Street Unit" />
+            <Field name="Street Address" />
+            <Field name="Zip Code" />
+            <Field name="Inspection Month" />
+            <Field name="Inspection Year" />
+            <Field name="Lat Long Location" />
+            <Field name="DI_CreateDate" />
+            <Field name="DI_WorkflowFileName" />
+            <Field name="INSPECTION DATE CONVERT" />
+          </KeyFields>
+          <OutputFields>
+            <Columns>
+              <Column name="Violation_No" type="text" context="Take from Descriptions" />
+              <Column name="Violation_Description" type="combobox" />
+              <Column name="Violation_Memo" type="combobox" />
+              <Column name="Violation_Detail" type="combobox" />
+              <Column name="Violation_Points" type="combobox" />
+            </Columns>
+            <Data>
+              <r>
+                <c>1</c>
+                <c>Violation Description - 13</c>
+                <c>Violation Memo - 13</c>
+                <c>Violation Detail - 13</c>
+                <c>Violation Points - 13</c>
+              </r>
+              <r>
+                <c>2</c>
+                <c>Violation Description - 25</c>
+                <c>Violation Memo - 25</c>
+                <c>Violation Detail - 25</c>
+                <c>Violation Points - 25</c>
+              </r>
+              <r>
+                <c>3</c>
+                <c>Violation Description - 3</c>
+                <c>Violation Memo - 3</c>
+                <c>Violation Detail - 3</c>
+                <c>Violation Points - 3</c>
+              </r>
+              <r>
+                <c>4</c>
+                <c>Violation Description - 4</c>
+                <c>Violation Memo - 4</c>
+                <c>Violation Detail - 4</c>
+                <c>Violation Points - 4</c>
+              </r>
+              <r>
+                <c>5</c>
+                <c>Violation Description - 5</c>
+                <c>Violation Memo - 5</c>
+                <c>Violation Detail - 5</c>
+                <c>Violation Points - 5</c>
+              </r>
+              <r>
+                <c>6</c>
+                <c>Violation Description - 6</c>
+                <c>Violation Memo - 6</c>
+                <c>Violation Detail - 6</c>
+                <c>Violation Points - 6</c>
+              </r>
+              <r>
+                <c>7</c>
+                <c>Violation Description - 7</c>
+                <c>Violation Memo - 7</c>
+                <c>Violation Detail - 7</c>
+                <c>Violation Points - 7</c>
+              </r>
+              <r>
+                <c>8</c>
+                <c>Violation Description - 8</c>
+                <c>Violation Memo - 8</c>
+                <c>Violation Detail - 8</c>
+                <c>Violation Points - 8</c>
+              </r>
+              <r>
+                <c>9</c>
+                <c>Violation Description - 9</c>
+                <c>Violation Memo - 9</c>
+                <c>Violation Detail - 9</c>
+                <c>Violation Points - 9</c>
+              </r>
+              <r>
+                <c>10</c>
+                <c>Violation Description - 10</c>
+                <c>Violation Memo - 10</c>
+                <c>Violation Detail - 10</c>
+                <c>Violation Points - 10</c>
+              </r>
+              <r>
+                <c>11</c>
+                <c>Violation Description - 11</c>
+                <c>Violation Memo - 11</c>
+                <c>Violation Detail - 11</c>
+                <c>Violation Points - 11</c>
+              </r>
+              <r>
+                <c>12</c>
+                <c>Violation Description - 12</c>
+                <c>Violation Memo - 12</c>
+                <c>Violation Detail - 12</c>
+                <c>Violation Points - 12</c>
+              </r>
+              <r>
+                <c>13</c>
+                <c>Violation Description - 14</c>
+                <c>Violation Memo - 14</c>
+                <c>Violation Detail - 14</c>
+                <c>Violation Points - 14</c>
+              </r>
+              <r>
+                <c>14</c>
+                <c>Violation Description - 19</c>
+                <c>Violation Memo - 19</c>
+                <c>Violation Detail - 19</c>
+                <c>Violation Points - 19</c>
+              </r>
+              <r>
+                <c>15</c>
+                <c>Violation Description - 15</c>
+                <c>Violation Memo - 15</c>
+                <c>Violation Detail - 15</c>
+                <c>Violation Points - 15</c>
+              </r>
+              <r>
+                <c>16</c>
+                <c>Violation Description - 16</c>
+                <c>Violation Memo - 16</c>
+                <c>Violation Detail - 16</c>
+                <c>Violation Points - 16</c>
+              </r>
+              <r>
+                <c>17</c>
+                <c>Violation Description - 17</c>
+                <c>Violation Memo - 17</c>
+                <c>Violation Detail - 17</c>
+                <c>Violation Points - 17</c>
+              </r>
+              <r>
+                <c>18</c>
+                <c>Violation Description - 18</c>
+                <c>Violation Memo - 18</c>
+                <c>Violation Detail - 18</c>
+                <c>Violation Points - 18</c>
+              </r>
+              <r>
+                <c>19</c>
+                <c>Violation Description - 24</c>
+                <c>Violation Memo - 24</c>
+                <c>Violation Detail - 24</c>
+                <c>Violation Points - 24</c>
+              </r>
+              <r>
+                <c>20</c>
+                <c>Violation Description - 20</c>
+                <c>Violation  Memo - 20</c>
+                <c>Violation Detail - 20</c>
+                <c>Violation Points - 20</c>
+              </r>
+              <r>
+                <c>21</c>
+                <c>Violation Description - 21</c>
+                <c>Violation Memo - 21</c>
+                <c>Violation Detail - 21</c>
+                <c>Violation Points - 21</c>
+              </r>
+              <r>
+                <c>22</c>
+                <c>Violation Description - 22</c>
+                <c>Violation Memo - 22</c>
+                <c>Violation Detail - 22</c>
+                <c>Violation Points - 22</c>
+              </r>
+              <r>
+                <c>23</c>
+                <c>Violation Description - 23</c>
+                <c>Violation Memo - 23</c>
+                <c>Violation Detail - 23</c>
+                <c>Violation Points - 23</c>
+              </r>
+              <r>
+                <c>24</c>
+                <c>Violation Description - 2</c>
+                <c>Violation Memo - 2</c>
+                <c>Violation Detail - 2</c>
+                <c>Violation Points - 2</c>
+              </r>
+              <r>
+                <c>25</c>
+                <c>Violation Description - 1</c>
+                <c>Violation Memo - 1</c>
+                <c>Violation Detail - 1</c>
+                <c>Violation Points - 1</c>
+              </r>
+            </Data>
+          </OutputFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxArrange" />
+    </Node>
+    <Node ToolID="122">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1061" y="1493" width="723" height="343" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>FCT_Dallas_FoodInspection_Violations</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="114">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1086" y="1542" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="InspectionSK" selected="True" />
+                <SelectField field="Violation_No" selected="True" />
+                <SelectField field="Violation_Description" selected="True" />
+                <SelectField field="Violation_Memo" selected="True" />
+                <SelectField field="Violation_Detail" selected="True" />
+                <SelectField field="Violation_Points" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="115">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="1302" y="1554" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>InspectionViolationsSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="116">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1422" y="1554" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="64" type="String" />
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_WorkflowDirectory = [Engine.WorkflowDirectory]
+DI_WorkflowFileName = [Engine....</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="117">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1626" y="1542" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nidhi\AppData\Local\Temp\Engine_14816_26d431b832ec8e41b8c61756209d3b55_\Engine_14816_175bfb2baa17d04cabb3104b5a33e8b0~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="118">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="1518" y="1554" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="InspectionSK" />
+                <Field field="Violation_No" />
+                <Field field="Violation_Description" />
+                <Field field="Violation_Memo" />
+                <Field field="Violation_Detail" />
+                <Field field="Violation_Points" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="119">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1206" y="1542" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>IsNull([Violation_Description]) &amp;&amp; IsNull([Violation_Memo]) &amp;&amp; IsNull([Violation_Detail]) &amp;&amp; IsNull([Violation_Points])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IsNull([Violation_Description]) &amp;&amp; IsNull([Violation_Memo]) &amp;&amp; IsNull([Violation...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="120">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1158" y="1602" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nidhi\AppData\Local\Temp\Engine_14816_26d431b832ec8e41b8c61756209d3b55_\Engine_14816_f7a4f55b05bd784a8c77253eebb278dc~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="121">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1362" y="1602" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nidhi\AppData\Local\Temp\Engine_14816_26d431b832ec8e41b8c61756209d3b55_\Engine_14816_fe98f8af447d0149bff5fb4f2e6b8cf8~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="124">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1601" y="1601" width="158" height="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Container 124</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="123">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1626" y="1650" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">odbc:DSN=ODBCSqlLocal|||FCT_Dallas_FoodInspection_Violations</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionSize>10000</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Create</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DSN=ODBCSqlLocal
+Query=FCT_Dallas_FoodInspection_Vi...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="377" y="1073" width="1179" height="340" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>FCT_Dallas_FoodInspection</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="96">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="402" y="1170" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Restaurant_Name" selected="True" />
+                <SelectField field="Inspection_Type" selected="True" />
+                <SelectField field="Inspection_Date" selected="True" />
+                <SelectField field="Inspection_Score" selected="True" />
+                <SelectField field="Street_Number" selected="True" type="Int32" size="4" />
+                <SelectField field="Street_Name" selected="True" />
+                <SelectField field="Street_Direction" selected="True" />
+                <SelectField field="Street_Type" selected="True" />
+                <SelectField field="Street_Unit" selected="True" />
+                <SelectField field="Street_Address" selected="True" />
+                <SelectField field="Zip_Code" selected="True" />
+                <SelectField field="Inspection_Month" selected="True" />
+                <SelectField field="Inspection_Year" selected="True" />
+                <SelectField field="Lat_Long_Location" selected="True" />
+                <SelectField field="DI_CreateDate" selected="True" />
+                <SelectField field="DI_WorkflowFileName" selected="True" />
+                <SelectField field="INSPECTION_DATE_CONVERT" selected="True" />
+                <SelectField field="Violation_No" selected="True" />
+                <SelectField field="Violation_Description" selected="True" />
+                <SelectField field="Violation_Memo" selected="True" />
+                <SelectField field="Violation_Detail" selected="True" />
+                <SelectField field="Violation_Points" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="98">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="630" y="1122" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Restaurant_Name" />
+                <Field field="Street_Number" />
+                <Field field="Street_Address" />
+                <Field field="Street_Name" />
+                <Field field="Zip_Code" />
+                <Field field="Street_Direction" />
+                <Field field="Street_Type" />
+                <Field field="Street_Unit" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Restaurant_Name" />
+                <Field field="Street_Number" />
+                <Field field="Street_Address" />
+                <Field field="Street_Name" />
+                <Field field="Zip_Code" />
+                <Field field="Street_Direction" />
+                <Field field="Street_Type" />
+                <Field field="Street_Unit" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Restaurant_Name" selected="True" input="Left_" type="V_String" size="1000" />
+                    <SelectField field="Left_Inspection_Type" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Date" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Score" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Number" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Name" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Direction" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Type" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Unit" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Address" selected="True" input="Left_" />
+                    <SelectField field="Left_Zip_Code" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Month" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Year" selected="True" input="Left_" />
+                    <SelectField field="Left_Lat_Long_Location" selected="True" input="Left_" />
+                    <SelectField field="Left_INSPECTION_DATE_CONVERT" selected="True" input="Left_" type="Date" size="10" />
+                    <SelectField field="Left_Violation_No" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Description" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Memo" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Detail" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Points" selected="True" input="Left_" />
+                    <SelectField field="Right_RestaurantSK" selected="True" input="Right_" />
+                    <SelectField field="Right_Restaurant_Name" selected="False" rename="Right_Restaurant_Name" input="Right_" />
+                    <SelectField field="Right_Street_Number" selected="False" rename="Right_Street_Number" input="Right_" />
+                    <SelectField field="Right_Street_Name" selected="False" rename="Right_Street_Name" input="Right_" type="V_WString" size="1000" />
+                    <SelectField field="Right_Street_Direction" selected="False" rename="Right_Street_Direction" input="Right_" />
+                    <SelectField field="Right_Street_Type" selected="False" rename="Right_Street_Type" input="Right_" />
+                    <SelectField field="Right_Street_Unit" selected="False" rename="Right_Street_Unit" input="Right_" />
+                    <SelectField field="Right_Street_Address" selected="False" rename="Right_Street_Address" input="Right_" type="V_WString" size="1000" />
+                    <SelectField field="Right_Zip_Code" selected="False" rename="Right_Zip_Code" input="Right_" type="V_WString" size="1000" />
+                    <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                    <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="99">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="534" y="1194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">odbc:DSN=ODBCSqlLocal|||SELECT * FROM "master"."dbo"."Dim_Dallas_Restaurant"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <SessionReadOnly>True</SessionReadOnly>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+                <SingleRowFetch>False</SingleRowFetch>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=ODBCSqlLocal
+Query=SELECT * FROM "master"."dbo"...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RestaurantSK" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="Int32" />
+                <Field name="Restaurant_Name" size="65" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="V_String" />
+                <Field name="Street_Number" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="Int32" />
+                <Field name="Street_Name" size="25" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="V_String" />
+                <Field name="Street_Direction" size="1" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="String" />
+                <Field name="Street_Type" size="4" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="String" />
+                <Field name="Street_Unit" size="5" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="String" />
+                <Field name="Street_Address" size="36" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="V_String" />
+                <Field name="Zip_Code" size="10" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="String" />
+                <Field name="DI_CreateDate" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="DateTime" />
+                <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="V_WString" />
+                <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Restaurant&quot;" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="100">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="762" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Street_Address" />
+                <Field field="Zip_Code" />
+                <Field field="Street_Number" />
+                <Field field="Street_Type" />
+                <Field field="Street_Unit" />
+                <Field field="Street_Direction" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Street_Address" />
+                <Field field="Zip_Code" />
+                <Field field="Street_Number" />
+                <Field field="Street_Type" />
+                <Field field="Street_Unit" />
+                <Field field="Street_Direction" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Restaurant_Name" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Type" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Date" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Score" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Number" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Name" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Direction" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Type" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Unit" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Address" selected="True" input="Left_" />
+                    <SelectField field="Left_Zip_Code" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Month" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Year" selected="True" input="Left_" />
+                    <SelectField field="Left_Lat_Long_Location" selected="True" input="Left_" />
+                    <SelectField field="Left_DI_CreateDate" selected="False" input="Left_" />
+                    <SelectField field="Left_DI_WorkflowFileName" selected="False" input="Left_" />
+                    <SelectField field="Left_INSPECTION_DATE_CONVERT" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_No" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Description" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Memo" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Detail" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Points" selected="True" input="Left_" />
+                    <SelectField field="Left_RestaurantSK" selected="True" input="Left_" />
+                    <SelectField field="Right_GeoSK" selected="True" input="Right_" />
+                    <SelectField field="Left_Right_Restaurant_Name" selected="False" input="Left_" />
+                    <SelectField field="Left_Right_Street_Number" selected="False" rename="Left_Right_Street_Number" input="Left_" />
+                    <SelectField field="Left_Right_Street_Name" selected="False" rename="Left_Right_Street_Name" input="Left_" />
+                    <SelectField field="Left_Right_Street_Direction" selected="False" rename="Left_Right_Street_Direction" input="Left_" />
+                    <SelectField field="Left_Right_Street_Type" selected="False" rename="Left_Right_Street_Type" input="Left_" />
+                    <SelectField field="Left_Right_Street_Unit" selected="False" rename="Left_Right_Street_Unit" input="Left_" />
+                    <SelectField field="Left_Right_Street_Address" selected="False" rename="Left_Right_Street_Address" input="Left_" />
+                    <SelectField field="Left_Right_Zip_Code" selected="False" rename="Left_Right_Zip_Code" input="Left_" />
+                    <SelectField field="Left_Right_DI_CreateDate" selected="False" rename="Left_Right_DI_CreateDate" input="Left_" />
+                    <SelectField field="Left_DI_WorkflowDirectory" selected="False" input="Left_" />
+                    <SelectField field="Left_Right_DI_WorkflowFileName" selected="False" rename="Left_Right_DI_WorkflowFileName" input="Left_" />
+                    <SelectField field="Right_Street_Number" selected="False" rename="Right_Street_Number" input="Right_" />
+                    <SelectField field="Right_Street_Name" selected="False" rename="Right_Street_Name" input="Right_" />
+                    <SelectField field="Right_Street_Direction" selected="False" rename="Right_Street_Direction" input="Right_" />
+                    <SelectField field="Right_Street_Type" selected="False" rename="Right_Street_Type" input="Right_" />
+                    <SelectField field="Right_Street_Unit" selected="False" rename="Right_Street_Unit" input="Right_" />
+                    <SelectField field="Right_Street_Address" selected="False" rename="Right_Street_Address" input="Right_" />
+                    <SelectField field="Right_Zip_Code" selected="False" rename="Right_Zip_Code" input="Right_" />
+                    <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                    <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                    <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="102">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="678" y="1194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">odbc:DSN=ODBCSqlLocal|||SELECT * FROM "master"."dbo"."Dim_Dallas_Geo"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <SessionReadOnly>True</SessionReadOnly>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+                <SingleRowFetch>False</SingleRowFetch>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=ODBCSqlLocal
+Query=SELECT * FROM "master"."dbo"...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="GeoSK" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Geo&quot;" type="Int32" />
+                <Field name="Street_Number" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Geo&quot;" type="Int32" />
+                <Field name="Street_Name" size="25" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Geo&quot;" type="V_String" />
+                <Field name="Street_Direction" size="1" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Geo&quot;" type="String" />
+                <Field name="Street_Type" size="4" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Geo&quot;" type="String" />
+                <Field name="Street_Unit" size="5" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Geo&quot;" type="String" />
+                <Field name="Street_Address" size="36" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Geo&quot;" type="V_String" />
+                <Field name="Zip_Code" size="10" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Geo&quot;" type="String" />
+                <Field name="DI_CreateDate" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Geo&quot;" type="DateTime" />
+                <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Geo&quot;" type="V_WString" />
+                <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_Geo&quot;" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="103">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="906" y="1146" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Inspection_Type" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Inspection_Type" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Restaurant_Name" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Type" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Date" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Score" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Number" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Name" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Direction" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Type" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Unit" selected="True" input="Left_" />
+                    <SelectField field="Left_Street_Address" selected="True" input="Left_" />
+                    <SelectField field="Left_Zip_Code" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Month" selected="True" input="Left_" />
+                    <SelectField field="Left_Inspection_Year" selected="True" input="Left_" />
+                    <SelectField field="Left_Lat_Long_Location" selected="True" input="Left_" />
+                    <SelectField field="Left_INSPECTION_DATE_CONVERT" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_No" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Description" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Memo" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Detail" selected="True" input="Left_" />
+                    <SelectField field="Left_Violation_Points" selected="True" input="Left_" />
+                    <SelectField field="Left_RestaurantSK" selected="True" input="Left_" />
+                    <SelectField field="Left_GeoSK" selected="True" input="Left_" />
+                    <SelectField field="Right_InspectionTypeSK" selected="True" input="Right_" />
+                    <SelectField field="Right_Inspection_Type" selected="True" rename="Right_Inspection_Type" input="Right_" />
+                    <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                    <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                    <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                    <SelectField field="Left_Right_DI_CreateDate" selected="False" rename="Left_Right_DI_CreateDate" input="Left_" />
+                    <SelectField field="Left_Right_DI_WorkflowDirectory" selected="False" rename="Left_Right_DI_WorkflowDirectory" input="Left_" />
+                    <SelectField field="Left_Right_DI_WorkflowFileName" selected="False" rename="Left_Right_DI_WorkflowFileName" input="Left_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="104">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="822" y="1206" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">odbc:DSN=ODBCSqlLocal|||SELECT * FROM "master"."dbo"."Dim_Dallas_InspectionType"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <SessionReadOnly>True</SessionReadOnly>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+                <SingleRowFetch>False</SingleRowFetch>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=ODBCSqlLocal
+Query=SELECT * FROM "master"."dbo"...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="InspectionTypeSK" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_InspectionType&quot;" type="Int32" />
+                <Field name="Inspection_Type" size="9" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_InspectionType&quot;" type="String" />
+                <Field name="DI_CreateDate" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_InspectionType&quot;" type="DateTime" />
+                <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_InspectionType&quot;" type="V_WString" />
+                <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DSN=ODBCSqlLocal|||SELECT * FROM &quot;master&quot;.&quot;dbo&quot;.&quot;Dim_Dallas_InspectionType&quot;" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="105">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="1014" y="1146" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>InspectionSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="106">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1122" y="1146" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="InspectionSK" selected="True" />
+                <SelectField field="INSPECTION_DATE_CONVERT" selected="True" />
+                <SelectField field="Inspection_Month" selected="True" />
+                <SelectField field="Inspection_Year" selected="True" />
+                <SelectField field="RestaurantSK" selected="True" />
+                <SelectField field="GeoSK" selected="True" />
+                <SelectField field="InspectionTypeSK" selected="True" />
+                <SelectField field="Inspection_Score" selected="True" />
+                <SelectField field="Restaurant_Name" selected="False" />
+                <SelectField field="Inspection_Type" selected="False" />
+                <SelectField field="Inspection_Date" selected="False" />
+                <SelectField field="Street_Number" selected="False" />
+                <SelectField field="Street_Name" selected="False" />
+                <SelectField field="Street_Direction" selected="False" />
+                <SelectField field="Street_Type" selected="False" />
+                <SelectField field="Street_Unit" selected="False" />
+                <SelectField field="Street_Address" selected="False" />
+                <SelectField field="Zip_Code" selected="False" />
+                <SelectField field="Lat_Long_Location" selected="False" />
+                <SelectField field="Violation_No" selected="False" />
+                <SelectField field="Violation_Description" selected="False" />
+                <SelectField field="Violation_Memo" selected="False" />
+                <SelectField field="Violation_Detail" selected="False" />
+                <SelectField field="Violation_Points" selected="False" />
+                <SelectField field="Right_Inspection_Type" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="107">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1230" y="1146" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="64" type="String" />
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_WorkflowDirectory = [Engine.WorkflowDirectory]
+DI_WorkflowFileName = [Engine....</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="110">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1446" y="1122" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nidhi\AppData\Local\Temp\Engine_14816_26d431b832ec8e41b8c61756209d3b55_\Engine_14816_3b0d6dd123c7af44ac22267f9a26da6c~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="111">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="1326" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="INSPECTION_DATE_CONVERT" />
+                <Field field="Inspection_Month" />
+                <Field field="Inspection_Year" />
+                <Field field="RestaurantSK" />
+                <Field field="GeoSK" />
+                <Field field="InspectionTypeSK" />
+                <Field field="Inspection_Score" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="113">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1373" y="1193" width="158" height="195" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Container 113</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="108">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1398" y="1242" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">odbc:DSN=ODBCSqlLocal|||FCT_Dallas_FoodInspection</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionSize>10000</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Create</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DSN=ODBCSqlLocal
+Query=FCT_Dallas_FoodInspection</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="89">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="725" y="700" width="624" height="307" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_Dallas_Geo</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="750" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Restaurant_Name" selected="False" />
+                <SelectField field="Inspection_Type" selected="False" />
+                <SelectField field="Inspection_Date" selected="False" />
+                <SelectField field="Inspection_Score" selected="False" />
+                <SelectField field="Street_Number" selected="True" />
+                <SelectField field="Street_Name" selected="True" />
+                <SelectField field="Street_Direction" selected="True" />
+                <SelectField field="Street_Type" selected="True" />
+                <SelectField field="Street_Unit" selected="True" />
+                <SelectField field="Street_Address" selected="True" />
+                <SelectField field="Zip_Code" selected="True" />
+                <SelectField field="Violation_Description_-_1" selected="False" />
+                <SelectField field="Violation_Points_-_1" selected="False" />
+                <SelectField field="Violation_Detail_-_1" selected="False" />
+                <SelectField field="Violation_Memo_-_1" selected="False" />
+                <SelectField field="Violation_Description_-_2" selected="False" />
+                <SelectField field="Violation_Points_-_2" selected="False" />
+                <SelectField field="Violation_Detail_-_2" selected="False" />
+                <SelectField field="Violation_Memo_-_2" selected="False" />
+                <SelectField field="Violation_Description_-_3" selected="False" />
+                <SelectField field="Violation_Points_-_3" selected="False" />
+                <SelectField field="Violation_Detail_-_3" selected="False" />
+                <SelectField field="Violation_Memo_-_3" selected="False" />
+                <SelectField field="Violation_Description_-_4" selected="False" />
+                <SelectField field="Violation_Points_-_4" selected="False" />
+                <SelectField field="Violation_Detail_-_4" selected="False" />
+                <SelectField field="Violation_Memo_-_4" selected="False" />
+                <SelectField field="Violation_Description_-_5" selected="False" />
+                <SelectField field="Violation_Points_-_5" selected="False" />
+                <SelectField field="Violation_Detail_-_5" selected="False" />
+                <SelectField field="Violation_Memo_-_5" selected="False" />
+                <SelectField field="Violation_Description_-_6" selected="False" />
+                <SelectField field="Violation_Points_-_6" selected="False" />
+                <SelectField field="Violation_Detail_-_6" selected="False" />
+                <SelectField field="Violation_Memo_-_6" selected="False" />
+                <SelectField field="Violation_Description_-_7" selected="False" />
+                <SelectField field="Violation_Points_-_7" selected="False" />
+                <SelectField field="Violation_Detail_-_7" selected="False" />
+                <SelectField field="Violation_Memo_-_7" selected="False" />
+                <SelectField field="Violation_Description_-_8" selected="False" />
+                <SelectField field="Violation_Points_-_8" selected="False" />
+                <SelectField field="Violation_Detail_-_8" selected="False" />
+                <SelectField field="Violation_Memo_-_8" selected="False" />
+                <SelectField field="Violation_Description_-_9" selected="False" />
+                <SelectField field="Violation_Points_-_9" selected="False" />
+                <SelectField field="Violation_Detail_-_9" selected="False" />
+                <SelectField field="Violation_Memo_-_9" selected="False" />
+                <SelectField field="Violation_Description_-_10" selected="False" />
+                <SelectField field="Violation_Points_-_10" selected="False" />
+                <SelectField field="Violation_Detail_-_10" selected="False" />
+                <SelectField field="Violation_Memo_-_10" selected="False" />
+                <SelectField field="Violation_Description_-_11" selected="False" />
+                <SelectField field="Violation_Points_-_11" selected="False" />
+                <SelectField field="Violation_Detail_-_11" selected="False" />
+                <SelectField field="Violation_Memo_-_11" selected="False" />
+                <SelectField field="Violation_Description_-_12" selected="False" />
+                <SelectField field="Violation_Points_-_12" selected="False" />
+                <SelectField field="Violation_Detail_-_12" selected="False" />
+                <SelectField field="Violation_Memo_-_12" selected="False" />
+                <SelectField field="Violation_Description_-_13" selected="False" />
+                <SelectField field="Violation_Points_-_13" selected="False" />
+                <SelectField field="Violation_Detail_-_13" selected="False" />
+                <SelectField field="Violation_Memo_-_13" selected="False" />
+                <SelectField field="Violation_Description_-_14" selected="False" />
+                <SelectField field="Violation_Points_-_14" selected="False" />
+                <SelectField field="Violation_Detail_-_14" selected="False" />
+                <SelectField field="Violation_Memo_-_14" selected="False" />
+                <SelectField field="Violation_Description_-_15" selected="False" />
+                <SelectField field="Violation_Points_-_15" selected="False" />
+                <SelectField field="Violation_Detail_-_15" selected="False" />
+                <SelectField field="Violation_Memo_-_15" selected="False" />
+                <SelectField field="Violation_Description_-_16" selected="False" />
+                <SelectField field="Violation_Points_-_16" selected="False" />
+                <SelectField field="Violation_Detail_-_16" selected="False" />
+                <SelectField field="Violation_Memo_-_16" selected="False" />
+                <SelectField field="Violation_Description_-_17" selected="False" />
+                <SelectField field="Violation_Points_-_17" selected="False" />
+                <SelectField field="Violation_Detail_-_17" selected="False" />
+                <SelectField field="Violation_Memo_-_17" selected="False" />
+                <SelectField field="Violation_Description_-_18" selected="False" />
+                <SelectField field="Violation_Points_-_18" selected="False" />
+                <SelectField field="Violation_Detail_-_18" selected="False" />
+                <SelectField field="Violation_Memo_-_18" selected="False" />
+                <SelectField field="Violation_Description_-_19" selected="False" />
+                <SelectField field="Violation_Points_-_19" selected="False" />
+                <SelectField field="Violation_Detail_-_19" selected="False" />
+                <SelectField field="Violation_Memo_-_19" selected="False" />
+                <SelectField field="Violation_Description_-_20" selected="False" />
+                <SelectField field="Violation_Points_-_20" selected="False" />
+                <SelectField field="Violation_Detail_-_20" selected="False" />
+                <SelectField field="Violation__Memo_-_20" selected="False" />
+                <SelectField field="Violation_Description_-_21" selected="False" />
+                <SelectField field="Violation_Points_-_21" selected="False" />
+                <SelectField field="Violation_Detail_-_21" selected="False" />
+                <SelectField field="Violation_Memo_-_21" selected="False" />
+                <SelectField field="Violation_Description_-_22" selected="False" />
+                <SelectField field="Violation_Points_-_22" selected="False" />
+                <SelectField field="Violation_Detail_-_22" selected="False" />
+                <SelectField field="Violation_Memo_-_22" selected="False" />
+                <SelectField field="Violation_Description_-_23" selected="False" />
+                <SelectField field="Violation_Points_-_23" selected="False" />
+                <SelectField field="Violation_Detail_-_23" selected="False" />
+                <SelectField field="Violation_Memo_-_23" selected="False" />
+                <SelectField field="Violation_Description_-_24" selected="False" />
+                <SelectField field="Violation_Points_-_24" selected="False" />
+                <SelectField field="Violation_Detail_-_24" selected="False" />
+                <SelectField field="Violation_Memo_-_24" selected="False" />
+                <SelectField field="Violation_Description_-_25" selected="False" />
+                <SelectField field="Violation_Points_-_25" selected="False" />
+                <SelectField field="Violation_Detail_-_25" selected="False" />
+                <SelectField field="Violation_Memo_-_25" selected="False" />
+                <SelectField field="Inspection_Month" selected="False" />
+                <SelectField field="Inspection_Year" selected="False" />
+                <SelectField field="Lat_Long_Location" selected="False" />
+                <SelectField field="DI_CreateDate" selected="True" />
+                <SelectField field="DI_WorkflowDirectory" selected="True" />
+                <SelectField field="DI_WorkflowFileName" selected="True" />
+                <SelectField field="INSPECTION_DATE_CONVERT" selected="False" />
+                <SelectField field="Violation_No" selected="False" />
+                <SelectField field="Violation_Description" selected="False" />
+                <SelectField field="Violation_Memo" selected="False" />
+                <SelectField field="Violation_Detail" selected="False" />
+                <SelectField field="Violation_Points" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="918" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Street_Number" />
+                <Field field="Street_Name" />
+                <Field field="Street_Direction" />
+                <Field field="Street_Type" />
+                <Field field="Street_Unit" />
+                <Field field="Street_Address" />
+                <Field field="Zip_Code" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="846" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>IsNull([Street_Number]) &amp;&amp;
+IsNull([Street_Name]) &amp;&amp;
+IsNull([Street_Direction]) &amp;&amp;
+IsNull([Street_Type]) &amp;&amp;
+IsNull([Street_Unit]) &amp;&amp;
+IsNull([Street_Address]) &amp;&amp;
+IsNull([Zip_Code])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IsNull([Street_Number]) &amp;&amp;
+IsNull([Street_Name]) &amp;&amp;
+IsNull([Street_Direction]) &amp;...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="1014" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>GeoSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1121" y="749" width="203" height="195" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Dim_Dallas_Geo_Table</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="21">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1146" y="798" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">odbc:DSN=ODBCSqlLocal|||Dim_Dallas_Geo</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionSize>0</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Append</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DSN=ODBCSqlLocal
+Query=Dim_Dallas_Geo</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="713" y="388" width="638" height="269" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_Dallas_InspectionType</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="978" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>InspectionTypeSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="822" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>Inspection_Type</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2022-10-12 19:24:39</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2022-10-12 19:24:39</StartDate>
+                  <EndDate>2022-10-12 19:24:39</EndDate>
+                  <Operand>
+                  </Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Inspection_Type])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="894" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Inspection_Type" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1061" y="437" width="265" height="195" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Dim_Dallas_InspectionType_Table</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="17">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1086" y="486" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">odbc:DSN=ODBCSqlLocal|||Dim_Dallas_InspectionType</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionSize>0</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Append</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DSN=ODBCSqlLocal
+Query=Dim_Dallas_InspectionType</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="738" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Restaurant_Name" selected="False" />
+                <SelectField field="Inspection_Type" selected="True" />
+                <SelectField field="Inspection_Date" selected="False" />
+                <SelectField field="Inspection_Score" selected="False" />
+                <SelectField field="Street_Number" selected="False" />
+                <SelectField field="Street_Name" selected="False" />
+                <SelectField field="Street_Direction" selected="False" />
+                <SelectField field="Street_Type" selected="False" />
+                <SelectField field="Street_Unit" selected="False" />
+                <SelectField field="Street_Address" selected="False" />
+                <SelectField field="Zip_Code" selected="False" />
+                <SelectField field="Violation_Description_-_1" selected="False" />
+                <SelectField field="Violation_Points_-_1" selected="False" />
+                <SelectField field="Violation_Detail_-_1" selected="False" />
+                <SelectField field="Violation_Memo_-_1" selected="False" />
+                <SelectField field="Violation_Description_-_2" selected="False" />
+                <SelectField field="Violation_Points_-_2" selected="False" />
+                <SelectField field="Violation_Detail_-_2" selected="False" />
+                <SelectField field="Violation_Memo_-_2" selected="False" />
+                <SelectField field="Violation_Description_-_3" selected="False" />
+                <SelectField field="Violation_Points_-_3" selected="False" />
+                <SelectField field="Violation_Detail_-_3" selected="False" />
+                <SelectField field="Violation_Memo_-_3" selected="False" />
+                <SelectField field="Violation_Description_-_4" selected="False" />
+                <SelectField field="Violation_Points_-_4" selected="False" />
+                <SelectField field="Violation_Detail_-_4" selected="False" />
+                <SelectField field="Violation_Memo_-_4" selected="False" />
+                <SelectField field="Violation_Description_-_5" selected="False" />
+                <SelectField field="Violation_Points_-_5" selected="False" />
+                <SelectField field="Violation_Detail_-_5" selected="False" />
+                <SelectField field="Violation_Memo_-_5" selected="False" />
+                <SelectField field="Violation_Description_-_6" selected="False" />
+                <SelectField field="Violation_Points_-_6" selected="False" />
+                <SelectField field="Violation_Detail_-_6" selected="False" />
+                <SelectField field="Violation_Memo_-_6" selected="False" />
+                <SelectField field="Violation_Description_-_7" selected="False" />
+                <SelectField field="Violation_Points_-_7" selected="False" />
+                <SelectField field="Violation_Detail_-_7" selected="False" />
+                <SelectField field="Violation_Memo_-_7" selected="False" />
+                <SelectField field="Violation_Description_-_8" selected="False" />
+                <SelectField field="Violation_Points_-_8" selected="False" />
+                <SelectField field="Violation_Detail_-_8" selected="False" />
+                <SelectField field="Violation_Memo_-_8" selected="False" />
+                <SelectField field="Violation_Description_-_9" selected="False" />
+                <SelectField field="Violation_Points_-_9" selected="False" />
+                <SelectField field="Violation_Detail_-_9" selected="False" />
+                <SelectField field="Violation_Memo_-_9" selected="False" />
+                <SelectField field="Violation_Description_-_10" selected="False" />
+                <SelectField field="Violation_Points_-_10" selected="False" />
+                <SelectField field="Violation_Detail_-_10" selected="False" />
+                <SelectField field="Violation_Memo_-_10" selected="False" />
+                <SelectField field="Violation_Description_-_11" selected="False" />
+                <SelectField field="Violation_Points_-_11" selected="False" />
+                <SelectField field="Violation_Detail_-_11" selected="False" />
+                <SelectField field="Violation_Memo_-_11" selected="False" />
+                <SelectField field="Violation_Description_-_12" selected="False" />
+                <SelectField field="Violation_Points_-_12" selected="False" />
+                <SelectField field="Violation_Detail_-_12" selected="False" />
+                <SelectField field="Violation_Memo_-_12" selected="False" />
+                <SelectField field="Violation_Description_-_13" selected="False" />
+                <SelectField field="Violation_Points_-_13" selected="False" />
+                <SelectField field="Violation_Detail_-_13" selected="False" />
+                <SelectField field="Violation_Memo_-_13" selected="False" />
+                <SelectField field="Violation_Description_-_14" selected="False" />
+                <SelectField field="Violation_Points_-_14" selected="False" />
+                <SelectField field="Violation_Detail_-_14" selected="False" />
+                <SelectField field="Violation_Memo_-_14" selected="False" />
+                <SelectField field="Violation_Description_-_15" selected="False" />
+                <SelectField field="Violation_Points_-_15" selected="False" />
+                <SelectField field="Violation_Detail_-_15" selected="False" />
+                <SelectField field="Violation_Memo_-_15" selected="False" />
+                <SelectField field="Violation_Description_-_16" selected="False" />
+                <SelectField field="Violation_Points_-_16" selected="False" />
+                <SelectField field="Violation_Detail_-_16" selected="False" />
+                <SelectField field="Violation_Memo_-_16" selected="False" />
+                <SelectField field="Violation_Description_-_17" selected="False" />
+                <SelectField field="Violation_Points_-_17" selected="False" />
+                <SelectField field="Violation_Detail_-_17" selected="False" />
+                <SelectField field="Violation_Memo_-_17" selected="False" />
+                <SelectField field="Violation_Description_-_18" selected="False" />
+                <SelectField field="Violation_Points_-_18" selected="False" />
+                <SelectField field="Violation_Detail_-_18" selected="False" />
+                <SelectField field="Violation_Memo_-_18" selected="False" />
+                <SelectField field="Violation_Description_-_19" selected="False" />
+                <SelectField field="Violation_Points_-_19" selected="False" />
+                <SelectField field="Violation_Detail_-_19" selected="False" />
+                <SelectField field="Violation_Memo_-_19" selected="False" />
+                <SelectField field="Violation_Description_-_20" selected="False" />
+                <SelectField field="Violation_Points_-_20" selected="False" />
+                <SelectField field="Violation_Detail_-_20" selected="False" />
+                <SelectField field="Violation__Memo_-_20" selected="False" />
+                <SelectField field="Violation_Description_-_21" selected="False" />
+                <SelectField field="Violation_Points_-_21" selected="False" />
+                <SelectField field="Violation_Detail_-_21" selected="False" />
+                <SelectField field="Violation_Memo_-_21" selected="False" />
+                <SelectField field="Violation_Description_-_22" selected="False" />
+                <SelectField field="Violation_Points_-_22" selected="False" />
+                <SelectField field="Violation_Detail_-_22" selected="False" />
+                <SelectField field="Violation_Memo_-_22" selected="False" />
+                <SelectField field="Violation_Description_-_23" selected="False" />
+                <SelectField field="Violation_Points_-_23" selected="False" />
+                <SelectField field="Violation_Detail_-_23" selected="False" />
+                <SelectField field="Violation_Memo_-_23" selected="False" />
+                <SelectField field="Violation_Description_-_24" selected="False" />
+                <SelectField field="Violation_Points_-_24" selected="False" />
+                <SelectField field="Violation_Detail_-_24" selected="False" />
+                <SelectField field="Violation_Memo_-_24" selected="False" />
+                <SelectField field="Violation_Description_-_25" selected="False" />
+                <SelectField field="Violation_Points_-_25" selected="False" />
+                <SelectField field="Violation_Detail_-_25" selected="False" />
+                <SelectField field="Violation_Memo_-_25" selected="False" />
+                <SelectField field="Inspection_Month" selected="False" />
+                <SelectField field="Inspection_Year" selected="False" />
+                <SelectField field="Lat_Long_Location" selected="False" />
+                <SelectField field="DI_CreateDate" selected="True" />
+                <SelectField field="DI_WorkflowFileName" selected="True" />
+                <SelectField field="DI_WorkflowDirectory" selected="True" />
+                <SelectField field="INSPECTION_DATE_CONVERT" selected="False" />
+                <SelectField field="Violation_No" selected="False" />
+                <SelectField field="Violation_Description" selected="False" />
+                <SelectField field="Violation_Memo" selected="False" />
+                <SelectField field="Violation_Detail" selected="False" />
+                <SelectField field="Violation_Points" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="713" y="63" width="638" height="269" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_Dallas_Restuarant</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="1014" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RestaurantSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="738" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Restaurant_Name" selected="True" />
+                <SelectField field="Street_Number" selected="True" />
+                <SelectField field="Street_Name" selected="True" />
+                <SelectField field="Street_Direction" selected="True" />
+                <SelectField field="Street_Type" selected="True" />
+                <SelectField field="Street_Unit" selected="True" />
+                <SelectField field="Street_Address" selected="True" />
+                <SelectField field="Zip_Code" selected="True" />
+                <SelectField field="DI_CreateDate" selected="True" />
+                <SelectField field="DI_WorkflowFileName" selected="True" />
+                <SelectField field="DI_WorkflowDirectory" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="870" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Restaurant_Name" />
+                <Field field="Street_Number" />
+                <Field field="Street_Name" />
+                <Field field="Street_Direction" />
+                <Field field="Street_Type" />
+                <Field field="Street_Unit" />
+                <Field field="Street_Address" />
+                <Field field="Zip_Code" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1085" y="112" width="241" height="195" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Dim_Dallas_Restaurant_Table</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="6">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1110" y="161" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">odbc:DSN=ODBCSqlLocal|||Dim_Dallas_Restaurant</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionSize>10000</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <AppendMap>
+                      <AppendMapping mode="ByName" />
+                    </AppendMap>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Delete</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DSN=ODBCSqlLocal
+Query=Dim_Dallas_Restaurant</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="96" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="4" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="115" Connection="Output" />
+      <Destination ToolID="116" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="115" Connection="Output" />
+      <Destination ToolID="121" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="116" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Unique" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Unique" />
+      <Destination ToolID="123" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="False" />
+      <Destination ToolID="115" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="98" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="99" Connection="Output" />
+      <Destination ToolID="98" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="98" Connection="Join" />
+      <Destination ToolID="100" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Output" />
+      <Destination ToolID="100" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Join" />
+      <Destination ToolID="103" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="104" Connection="Output" />
+      <Destination ToolID="103" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="Join" />
+      <Destination ToolID="105" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="105" Connection="Output" />
+      <Destination ToolID="106" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="105" Connection="Output" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="106" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="108" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="111" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="111" Connection="Unique" />
+      <Destination ToolID="110" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Unique" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="False" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="True" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Unique" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Unique" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dallas_Data_Preparation_Correction_v1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3cd3d754-6f1a-4124-b29f-47f8a8b1ea9d" />
+      <Telemetry>
+        <PreviousWorkflowId value="0816c802-6242-4a8a-9a10-fe13be0b8e72" />
+        <OriginWorkflowId value="59e286b8-8530-453a-8e65-6dbd8e092b53" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
